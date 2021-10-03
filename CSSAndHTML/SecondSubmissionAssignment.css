@@ -1,0 +1,15 @@
+/*======================================
+Styling for Second Submission Assignment
+======================================*/
+body{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+#wrap{
+    text-align: center;
+}
+
+img {
+    border: 2px dotted red;
+}

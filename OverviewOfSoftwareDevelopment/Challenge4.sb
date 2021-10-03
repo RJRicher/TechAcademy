@@ -1,0 +1,9 @@
+Pay = 3000
+Expenses = 3400
+TextWindow.WriteLine (Pay - Expenses)
+If (Pay > Expenses) Then
+  TextWindow.WriteLine("We can pay the bills.")
+EndIf 
+If (Pay < Expenses) Then
+  TextWindow.WriteLine("Time to tap in to the savings.")
+  EndIf

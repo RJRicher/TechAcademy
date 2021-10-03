@@ -1,0 +1,4 @@
+TextWindow.CursorTop=15
+TextWindow.Write("Where are you from?:")
+City = TextWindow.Read()
+TextWindow.WriteLine("Wow, " + City + " sounds great!")

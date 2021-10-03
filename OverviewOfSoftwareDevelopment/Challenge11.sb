@@ -1,0 +1,13 @@
+TextWindow.Title = "Challenge 11"
+TextWindow.Write("What is your name?")'Will display question to user
+Name = TextWindow.Read()'Reads response from user
+TextWindow.Write("What is your favourite sports team?")'Will dislay question to user
+Team = TextWindow.Read()'Reads response from user
+TextWindow.WriteLine("Hey " + Name + ", the " + Team + " are mine to.")'Gives written response back to user
+TextWindow.Write("Are you free next week?")'Displays question to user
+Avail = TextWindow.Read()'Reads response from user
+If (Avail = "yes") Then
+  TextWindow.WriteLine("Great, maybe we could catch a game!")
+Else
+  TextWindow.Write("Too bad, I was hoping we would be able to catch a game.")
+  EndIf

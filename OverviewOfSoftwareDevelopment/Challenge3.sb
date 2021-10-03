@@ -1,0 +1,5 @@
+Textwindow.Title = "This is my age"
+TextWindow.Top = 200
+My_age = 52
+TextWindow.WriteLine(My_age + " is my age.")
+

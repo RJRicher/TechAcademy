@@ -1,0 +1,5 @@
+TextWindow.BackgroundColor = "Green"
+TextWindow.ForegroundColor = "Yellow"
+TextWindow.WriteLine("This is sample text")
+Program.Delay(2000)
+TextWindow.WriteLine("This is sample text with a delay")

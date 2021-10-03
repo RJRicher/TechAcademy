@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: blue;
+  text-shadow: 5px 5px #00bfff;
+}
+ol{
+  list-style: upper-latin;
+}
+ul {
+  list-style: square;
+}
+footer{
+  background-color: #d3d3d3;
+}

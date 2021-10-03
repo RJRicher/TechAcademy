@@ -1,0 +1,14 @@
+TextWindow.WriteLine("How many tickets for the game did you sell?")
+Number1 = TextWindow.Read()
+Number2 = 100
+Program.Delay(1000)
+TextWindow.WriteLine(Math.Ceiling(Number1) + " tickets, that is great! We had " + Number2 + " available")
+If (Number1 < Number2)Then
+  TextWindow.WriteLine("It looks like we still have some selling to do.")
+ElseIf (Number1 > Number2)Then
+  TextWindow.WriteLine("It looks like we may have to refund a few people.")
+EndIf
+Remainder = Math.Remainder(Number1,Number2)
+If (Remainder <0)Then
+  TextWindow.WriteLine("It looks like a full house!")
+EndIf

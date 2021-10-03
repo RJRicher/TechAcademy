@@ -1,0 +1,14 @@
+Laptop["Dell"]["CPU"]="i7"
+Laptop["Dell"]["Memory"]="12 GB"
+Laptop["Dell"]["Price"]="$1,200"
+Laptop["HP"]["CPU"]="i3"
+Laptop["HP"]["Memory"]="4 GB"
+Laptop["HP"]["Price"]="$800"
+Laptop["ASUS"]["CPU"]="i5"
+Laptop["ASUS"]["Memory"]="8 GB"
+Laptop["ASUS"]["Price"]="$1,000"
+TextWindow.Write("Select your Laptop preference, Dell, HP or Asus: ")
+Model=textwindow.Read()
+TextWindow.WriteLine("It's CPU: " +Laptop[Model]["Cpu"])
+TextWindow.WriteLine("It's memory: " +Laptop[Model]["Memory"])
+TextWindow.WriteLine("It's price: " +Laptop[Model]["Price"])

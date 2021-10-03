@@ -1,0 +1,18 @@
+TextWindow.Write("Welcome to the Shell Game.")
+Program.Delay(2000)
+Fortune()
+Sub Fortune
+  Start:
+  TextWindow.Write(" Please select a shell from 1 - 3 and press enter. ")
+  Shell=TextWindow.Read()
+  If Shell= "1" Then
+    TextWindow.Write("Sorry, you lose. ")
+  ElseIf Shell= "2" Then
+    TextWindow.Write("Congradulations, you selected the winning shell. ")
+  ElseIf Shell= "3" Then
+    TextWindow.Write("Sorry, you lose. ")
+  Else 
+    TextWindow.Write("Please type a number between 1 -3 and press enter.")
+    Goto Start
+  EndIf
+  EndSub

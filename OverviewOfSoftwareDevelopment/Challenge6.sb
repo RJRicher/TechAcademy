@@ -1,0 +1,9 @@
+For D = 1 To 10
+  TextWindow.WriteLine(D)
+  EndFor
+Amount = 10
+While (Amount < 100)
+  TextWindow.WriteLine(Amount)
+  Amount = Amount * 2
+EndWhile
+

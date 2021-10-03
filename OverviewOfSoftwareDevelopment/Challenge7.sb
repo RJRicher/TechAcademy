@@ -1,0 +1,5 @@
+TextWindow.WriteLine("Let's count backwards from 100")
+For B = 100 To 1 Step -1
+  TextWindow.WriteLine(B)
+  Program.Delay(100)
+  EndFor

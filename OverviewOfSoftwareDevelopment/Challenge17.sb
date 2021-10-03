@@ -1,0 +1,25 @@
+GraphicsWindow.Width=500
+GraphicsWindow.Height=500
+GraphicsWindow.BrushColor="Yellow"
+GraphicsWindow.Backgroundcolor="Blue"
+
+GraphicsWindow.Mousedown=Click
+GraphicsWindow.MouseMove=Drag
+GraphicsWindow.Mouseup=Mup
+GraphicsWindow.Keydown=Kown
+GraphicsWindow.Keyup=Kup
+Sub Drag
+  GraphicsWindow.DrawBoundText(50,50,100,"Click anywhere on the screen.")
+EndSub
+Sub Click
+  GraphicsWindow.DrawBoundText(300,50,100,"Welcome!")
+EndSub
+Sub Mup
+  GraphicsWindow.DrawBoundText(50,100,100,"Press any key!")
+EndSub
+Sub Kown
+  Turtle.Show()
+EndSub
+Sub Kup
+  Turtle.Move(100)
+  EndSub

@@ -1,0 +1,9 @@
+GraphicsWindow.Height=600
+GraphicsWindow.Width=750
+GraphicsWindow.PenColor="red"
+GraphicsWindow.DrawLine(60,60,600,60)
+GraphicsWindow.PenWidth=30
+GraphicsWindow.SetPixel(50,50,"black")
+GraphicsWindow.DrawBoundText(600,100,50,"Harold")
+GraphicsWindow.DrawBoundText(20,20,150,"Harold")
+GraphicsWindow.FontItalic = "True"
